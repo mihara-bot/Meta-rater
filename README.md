@@ -3,12 +3,12 @@
 <div align="center">
 
 [![arXiv](https://img.shields.io/badge/arXiv-2504.14194-b31b1b.svg)](https://arxiv.org/abs/2504.14194)
-[![Hugging Face Models](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-yellow)](https://huggingface.co/opendatalab/)
+[![Hugging Face Models](https://img.shields.io/badge/🤗-Models-yellow)](https://huggingface.co/opendatalab/)
+[![Dataset](https://img.shields.io/badge/🤗-Dataset-yellow)](https://huggingface.co/datasets/opendatalab/SlimPajama-Meta-rater)
 [![Dataset](https://img.shields.io/badge/OpenDataLab-Dataset-yellow)](https://opendatalab.com/OpenDataLab/SlimPajama-Meta-rater)
 
 *Advancing LLM pre-training efficiency through multi-dimensional data quality assessment*
 
-[**Paper**](https://arxiv.org/abs/2504.14194) | [**Models**](https://huggingface.co/opendatalab/) | [**Dataset**](https://opendatalab.com/OpenDataLab/SlimPajama-Meta-rater)
 
 </div>
 
