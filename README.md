@@ -3,8 +3,8 @@
 <div align="center">
 
 [![arXiv](https://img.shields.io/badge/arXiv-2504.14194-b31b1b.svg)](https://arxiv.org/abs/2504.14194)
-[![Hugging Face Models](https://img.shields.io/badge/🤗-Models-yellow)](https://huggingface.co/opendatalab/)
-[![Dataset](https://img.shields.io/badge/🤗-Dataset-yellow)](https://huggingface.co/datasets/opendatalab/SlimPajama-Meta-rater)
+[![Hugging Face Models](https://img.shields.io/badge/🤗HuggingFace-Models-yellow)](https://huggingface.co/opendatalab/)
+[![Dataset](https://img.shields.io/badge/🤗HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/opendatalab/SlimPajama-Meta-rater)
 [![Dataset](https://img.shields.io/badge/OpenDataLab-Dataset-yellow)](https://opendatalab.com/OpenDataLab/SlimPajama-Meta-rater)
 
 *Advancing LLM pre-training efficiency through multi-dimensional data quality assessment*
@@ -175,7 +175,7 @@ optimal_data = meta_rater.select_final_data(your_data, target_size="30B")
 
 ### 📊 Datasets
 
-- **Annotated SlimPajama-627B**: [![Dataset](https://img.shields.io/badge/OpenDataLab-Dataset-yellow)](https://opendatalab.com/OpenDataLab/SlimPajama-Meta-rater) 
+- **Annotated SlimPajama-627B**: [![Dataset](https://img.shields.io/badge/🤗HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/opendatalab/SlimPajama-Meta-rater) 
   - 627B tokens with 25 quality scores per document
   - First fully annotated large-scale pre-training dataset
   - Ready for research and production use
