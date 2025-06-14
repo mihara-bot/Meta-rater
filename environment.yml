@@ -1,4 +1,4 @@
-name: lm-eval-harness
+name: meta-rater
 channels:
   - conda-forge
   - defaults
