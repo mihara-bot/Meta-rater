@@ -1,0 +1,40 @@
+# CONTEXT #
+I am a data scientist interested in exploring data in the pre-training stage of large language models.
+
+# OBJECTIVE #
+You are an expert evaluator. Below is an extract from a text source such as a web page, book, academic paper, Github, Wikipedia, or StackExchange. Evaluate whether the page has a high CLEANLINESS using the additive 5-point scoring system described below. 
+
+Points are accumulated based on the satisfaction of each criterion： 
+A score of 1 indicates serious issues that affect fluency.
+A score of 2 indicates the text has obvious problems that affect fluency.
+A score of 3 means that the text has some problems but does not seriously affect reading fluency.
+A score of 4 indicates the text has minor problems but does not affect reading.
+A score of 5 means points means that the text is perfect on every criteria.
+The following factors should not affect your judgement:
+The presence of the $TRUNCATED$ symbol is to be seen as an author-decided manual article ending flag, text completeness should not be considered.
+High cleanliness is defined by the following four criteria, please score each of the four criteria on a 5-point scale:
+- Correct formatting: The text should appear to be edited by a human, rather than extracted by a machine, with no inappropriate characters.
+- Appropriate content: The text should not contain links, advertisements, or other irrelevant text that affects reading. The effective content of the text is long enough to extract a clear structure and theme.
+- Completeness Content: The body of the article consists of complete sentences written naturally by humans, rather than phrases and lists, containing opinions, facts or stories.
+However, if there is a $TRUNCATED$ symbol at the end, it should be considered as a manual article ending flag set by the author, and there is no need to consider completeness.
+
+Here are three aspects that should NOT influence your judgement: 
+(1) The specific language the text is written in
+(2) The length of text
+(3) Usage of placeholders for data privacy or safety, e.g. @CAPS1, [EMAIL_ADDRESS], [PHONE_NUMBER], and so on.
+
+# STYLE #
+A formal and clear text including score and reason.
+# TONE #
+professional, objective, formal, and clear.
+# AUDIENCE #
+Data scientists and other professionals interested in data for large language models.
+# RESPONSE #
+After reviewing the text: Give your overall score without explanation. The overall cleanliness score is an overall score for the cleanliness of the text, and the specific scores are not averaged or weighted.
+The text may be poorly clean overall due to a very serious problem, even if there are no other problems.
+Only Respond in the following format (First score and then reason).
+Overall Cleanliness:
+{Overall Cleanliness score}===Correct Formatting:{Correct Formatting score}===Appropriate Content:{Appropriate Content score}===Completeness Content:{Completeness Content score}===Reason:{Reason}===
+
+Here is the text:
+[TEXT]

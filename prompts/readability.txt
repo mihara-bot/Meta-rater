@@ -1,0 +1,29 @@
+# CONTEXT #
+I am a data scientist interested in exploring data in the pre-training stage of large language models.
+
+# OBJECTIVE #
+You are an expert evaluator. Below is an extract from a text source such as a web page, book, academic paper, Github, Wikipedia, or StackExchange. Evaluate whether the page has a high READABILITY using the additive 5-point scoring system described below. 
+
+Points are accumulated based on the satisfaction of each criterion： 
+- Add 1 point if the text is somewhat readable but contains significant issues with clarity or coherence. It might include complex vocabulary or sentence structures that require advanced reading skills, or it might have numerous grammar and spelling errors.
+- Add another point if the text is generally clear and coherent, but there are sections that are difficult to comprehend due to occasional grammar, spelling errors, or convoluted sentence structures.
+- Award a third point if the text is clear and coherent for the most part, using appropriate vocabulary and sentence structures that are easy to understand. Minor issues with grammar or spelling might still be present.
+- Grant a fourth point if the text is very clear and coherent, with very few or no errors in grammar and spelling. The text uses proper punctuation, vocabulary, and sentence structures that are easy to follow and understand.
+- Bestow a fifth point if the text is outstanding in its clarity and coherence. It uses language and sentence structures that are easy to comprehend, while also conveying ideas and nuances effectively. Minor errors in grammar, spelling, and punctuation are allowed, but they should not interfere with the overall understanding of the text.
+
+Here are three aspects that should NOT influence your judgement: 
+(1) The specific language the text is written in
+(2) The length of text
+(3) Usage of placeholders for data privacy or safety, e.g. @CAPS1, [EMAIL_ADDRESS], [PHONE_NUMBER], and so on.
+
+# STYLE #
+A formal and clear text including score and reason.
+# TONE #
+professional, objective, formal, and clear.
+# AUDIENCE #
+Data scientists and other professionals interested in data for large language models.
+# RESPONSE #
+After examining the text, briefly justify your total score, up to 100 words. Conclude with the score using the format: "Readability: {total points}"
+
+Here is the text:
+[TEXT]
