@@ -188,6 +188,29 @@ optimal_data = meta_rater.select_final_data(your_data, target_size="30B")
 
 - **Top 30B token SlimPajama Subset selected by the Cleanliness rater**: [![Dataset](https://img.shields.io/badge/🤗HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/opendatalab/SlimPajama-Meta-rater-Cleanliness-30B)
 
+### 📝 PRRC Rating Prompts
+
+All prompts for rating PRRC dimensions (Professionalism, Readability, Reasoning, Cleanliness) are provided in the `prompts/` directory:
+- `prompts/professionalism.txt`
+- `prompts/readability.txt`
+- `prompts/reason.txt`
+- `prompts/cleanliness.txt`
+
+### 🛠️ Training & Evaluation Scripts
+
+The `scripts/` directory contains shell scripts for training and evaluating PRRC raters:
+- `scripts/prrc.sh`: Training script for PRRC raters
+- `scripts/evaluation.sh`: Evaluation script for PRRC raters
+
+### 🧑‍💻 Source Code for PRRC Raters
+
+The `src/` directory contains Python code for training and evaluating PRRC raters:
+- `src/train_singletask.py`: Training script for a single PRRC dimension
+- `src/test_singletask.py`: Evaluation script for a single PRRC dimension
+- `src/utils.py`: Utility functions for data processing and model management
+
+These resources enable full reproducibility of PRRC rater training, evaluation, and prompt-based annotation.
+
 <!-- ## 📁 Repository Structure
 
 ```
