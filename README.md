@@ -180,6 +180,14 @@ optimal_data = meta_rater.select_final_data(your_data, target_size="30B")
   - First fully annotated large-scale pre-training dataset
   - Ready for research and production use
 
+- **Top 30B token SlimPajama Subset selected by the Professionalism rater**: [![Dataset](https://img.shields.io/badge/🤗HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/opendatalab/SlimPajama-Meta-rater-Professionalism-30B)
+
+- **Top 30B token SlimPajama Subset selected by the Readability rater**: [![Dataset](https://img.shields.io/badge/🤗HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/opendatalab/SlimPajama-Meta-rater-Readability-30B)
+
+- **Top 30B token SlimPajama Subset selected by the Reasoning rater**: [![Dataset](https://img.shields.io/badge/🤗HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/opendatalab/SlimPajama-Meta-rater-Reasoning-30B)
+
+- **Top 30B token SlimPajama Subset selected by the Cleanliness rater**: [![Dataset](https://img.shields.io/badge/🤗HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/opendatalab/SlimPajama-Meta-rater-Cleanliness-30B)
+
 <!-- ## 📁 Repository Structure
 
 ```
