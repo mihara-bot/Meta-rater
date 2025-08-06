@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-2504.14194-b31b1b.svg)](https://arxiv.org/abs/2504.14194)
+[![ACL2025](https://img.shields.io/badge/ACL2025-BestThemePaper-b31b1b.svg)](https://aclanthology.org/2025.acl-long.533/)
 [![Hugging Face Models](https://img.shields.io/badge/🤗HuggingFace-Models-yellow)](https://huggingface.co/opendatalab/)
 [![Dataset](https://img.shields.io/badge/🤗HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/opendatalab/SlimPajama-Meta-rater)
 [![Dataset](https://img.shields.io/badge/OpenDataLab-Dataset-yellow)](https://opendatalab.com/OpenDataLab/SlimPajama-Meta-rater)
@@ -274,11 +274,32 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 If you use Meta-rater in your research, please cite our paper:
 
 ```bibtex
-@article{zhuang2025meta,
-  title={Meta-rater: A Multi-dimensional Data Selection Method for Pre-training Language Models},
-  author={Zhuang, Xinlin and Peng, Jiahui and Ma, Ren and Wang, Yinfan and Bai, Tianyi and Wei, Xingjian and Qiu, Jiantao and Zhang, Chi and Qian, Ying and He, Conghui},
-  journal={arXiv preprint arXiv:2504.14194},
-  year={2025}
+@inproceedings{zhuang-etal-2025-meta,
+    title = "Meta-rater: A Multi-dimensional Data Selection Method for Pre-training Language Models",
+    author = "Zhuang, Xinlin  and
+      Peng, Jiahui  and
+      Ma, Ren  and
+      Wang, Yinfan  and
+      Bai, Tianyi  and
+      Wei, Xingjian  and
+      Jiantao, Qiu  and
+      Zhang, Chi  and
+      Qian, Ying  and
+      He, Conghui",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.533/",
+    doi = "10.18653/v1/2025.acl-long.533",
+    pages = "10856--10896",
+    ISBN = "979-8-89176-251-0",
+    abstract = "The composition of pre-training datasets for large language models (LLMs) remains largely undisclosed, hindering transparency and efforts to optimize data quality{---}a critical driver of model performance. Current data selection methods, such as natural language quality assessments, diversity-based filters, and classifier-based approaches, are limited by single-dimensional evaluation or redundancy-focused strategies. To address these gaps, we propose four dimensions to evaluate data quality: professionalism, readability, reasoning, and cleanliness. We further introduce \textbf{Meta-rater}, a multi-dimensional data selection method that integrates these dimensions with existing quality metrics through learned optimal weightings. Meta-rater employs proxy models to train a regression model that predicts validation loss, enabling the identification of optimal combinations of quality scores. Experiments demonstrate that Meta-rater \textbf{doubles convergence speed} for 1.3B parameter models and improves downstream task performance by \textbf{3.23{\%}}, with advantages that scale to models as large as 7.2B parameters. Our work establishes that holistic, multi-dimensional quality integration significantly outperforms conventional single-dimension approaches, offering a scalable paradigm for enhancing pre-training efficiency and model capability. To advance future research, we release scripts, data, and models at \url{https://github.com/opendatalab/Meta-rater}."
 }
 ```
 
